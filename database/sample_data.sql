@@ -4,8 +4,7 @@ GO
 -- Insert Users
 INSERT INTO Users (Username, Password, FullName, Role) VALUES
 ('admin', 'e10adc3949ba59abbe56e057f20f883e', N'Quản trị viên', 'Admin'), -- pass: 123456
-('sv2001', 'e10adc3949ba59abbe56e057f20f883e', N'Nguyễn Văn A', 'Student'),
-('sv2002', 'e10adc3949ba59abbe56e057f20f883e', N'Trần Thị B', 'Student');
+
 
 -- Insert Students
 INSERT INTO Students (StudentCode, FullName, DateOfBirth, Gender, PhoneNumber, Email, IDCard, Address, Faculty, Major, Class, UserID) VALUES
